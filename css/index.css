@@ -87,6 +87,15 @@ main h2 {
 .contenedor_padre {
   background: #082032;
   padding: 0px; }
+  @media screen and (max-width: 800px) {
+    .contenedor_padre .portada {
+      width: 100%;
+      margin: 0px; }
+    .contenedor_padre .title {
+      padding: 20px 0px; }
+    .contenedor_padre .form-register {
+      width: 400px;
+      margin: 35px 0px 50px 220px; } }
   @media screen and (max-width: 560px) {
     .contenedor_padre .portada {
       width: 100%;
@@ -110,12 +119,6 @@ main h2 {
     .contenedor_padre .form-register {
       width: 350px;
       margin: 35px 0px 50px 35px; } }
-  @media screen and (max-width: 800px) {
-    .contenedor_padre .portada {
-      width: 100%;
-      margin: 0px; }
-    .contenedor_padre .title {
-      padding: 20px 0px; } }
 
 /*partials*/
 .nombre {

@@ -86,6 +86,19 @@ main h2 {
 .contenedor_padre {
     background: #082032;
     padding: 0px;
+    @media screen and (max-width: 800px){
+      .portada{
+        width: 100%;
+        margin: 0px;
+      }
+      .title{
+        padding: 20px 0px;
+      }
+      .form-register{
+        width: 400px;
+        margin: 35px 0px 50px 220px;
+      }
+    }
     @media screen and (max-width: 560px) {
       .portada{
         width: 100%;
@@ -116,15 +129,6 @@ main h2 {
       .form-register{
         width: 350px;
         margin: 35px 0px 50px 35px;
-      }
-    }
-    @media screen and (max-width: 800px){
-      .portada{
-        width: 100%;
-        margin: 0px;
-      }
-      .title{
-        padding: 20px 0px;
       }
     }
 }
